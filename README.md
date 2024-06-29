@@ -4,11 +4,11 @@
 
 ## To DO List Web App
 
-A Simple To Do App where users can:
+A Simple To-Do App where users can:
 * Add, Remove Tasks
 * Mark tasks as Complete or Incomplete
 
-### Dependendencies:
+### Dependencies:
 
 * **Database:** [MarkLogic](https://developer.marklogic.com/products/marklogic-server) to store data in XML format
 * **Backend:** [Express JS](https://expressjs.com/)
@@ -48,7 +48,7 @@ npm install
 npm start
 ```
 
-#### Frontent:
+#### Frontend:
 ```
 cd frontend
 echo "REACT_APP_BACKEND_URL=http://localhost:3001" > .env
